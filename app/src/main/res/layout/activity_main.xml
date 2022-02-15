@@ -7,6 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메세지"></TextView>
+
+    <EditText
+
+        android:id="@+id/ET1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="자유입력"></EditText>
+    <Button
+        android:id="@+id/Btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Btn"></Button>
+
 
 
 </LinearLayout>
