@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this, "$inputMessage", Toast.LENGTH_SHORT).show()
 
+            TV1.setText("$inputMessage")
+
 
 
 
